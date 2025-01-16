@@ -14,7 +14,7 @@ library(tidyverse)
 fev1 <- read_csv("../data/fev1.csv", col_types = list('id' = 'f'))
 fev1
 
-###extra
+### howdy pardna
 
 # sample the data so that we have 20 patients with more than 6 observations
 
