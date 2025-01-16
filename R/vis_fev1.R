@@ -34,6 +34,7 @@ fev1_sampled
 # Calculate the correlation between age and FEV1
 # (yes, this isn't strictly correct because there's repeated measures)
 
+corr_age_fev
 
 # Build a plot that shows the relationship between FEV1 and age
 
