@@ -59,6 +59,13 @@ fev1_plot
 
 
 # Add a smooth line of best fit to the plot. 
+fev1_plot <- ggplot(data = fev1_sampled, 
+                    aes(x = age , y = FEV1 )) +
+  geom_point() + 
+  labs(x = "Age (years)", y= "Forced Expiratory Volume") +
+  geom_smooth()
+
+fev1_plot
 
 
 # Activity 7
