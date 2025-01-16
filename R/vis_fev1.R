@@ -32,6 +32,10 @@ fev1_sampled
 # Activity 5 - A simple scatter plot
 
 # Calculate the correlation between age and FEV1
+
+corr_age_fev <- fev1 %>%
+  summarise(cor_age_fev = cor(age, FEV1, use = "complete.obs"))
+
 # (yes, this isn't strictly correct because there's repeated measures)
 
 corr_age_fev
