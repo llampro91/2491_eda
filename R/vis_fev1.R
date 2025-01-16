@@ -11,6 +11,8 @@ library(tidyverse)
 # read the data in
 fev1 <- read_csv("../data/fev1.csv", col_types = list('id' = 'f'))
 
+###extara
+
 # sample the data so that we have 20 patients with more than 6 observations
 
 fev1_sampled <- fev1 %>% 
